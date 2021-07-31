@@ -23,12 +23,7 @@ SET row_security = off;
 -- Name: StoryOfMusic; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE "StoryOfMusic" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'English_United States.1252';
 
-
-ALTER DATABASE "StoryOfMusic" OWNER TO postgres;
-
-\connect "StoryOfMusic"
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
