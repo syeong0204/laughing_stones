@@ -1,7 +1,7 @@
 username = "postgres"
 password = "postgres"
 port = 5432
-db_name = "Story Of Music"
+db_name = "StoryOfMusic"
 
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
