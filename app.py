@@ -8,9 +8,8 @@ import pandas as pd
 app = Flask(__name__)
 # Database Setup using SQLAlchmy ORM
 URI = f"postgresql://{username}:{password}@localhost:{port}/{db_name}"
-Engine = create_engine(URI)
-Base = automap_mapbase()
-Base.prepare(engine, reflect=True)
+engine = create_engine(URI)
+
 # Map table
 
 @app.route('/')
