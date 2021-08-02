@@ -5,11 +5,14 @@ body {
 .title{
    padding: 50px 10px 30px 30px; 
    text-align: center;
-   color:bisque
-   
+   color:bisque   
 }
 
 .center{
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
+}
+
+.navbar{
+    text-align: right;
 }
