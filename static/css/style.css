@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://www.desktopbackground.org/download/o/2014/10/05/835508_music-website-background-images-hd_2560x1600_h.jpg');
+   }
+
+.title{
+   padding: 50px 10px 30px 30px; 
+   text-align: center;
+   color:bisque   
+}
+
+.center{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.navbar{
+    text-align: right;
+}
