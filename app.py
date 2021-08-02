@@ -3,14 +3,15 @@ from sqlalchemy import create_engine
 import numpy as np
 from config import username, password, port, db_name
 import pandas as pd
+from flask_cors import CORS, cross_origin
 
 # Flask Setup
 app = Flask(__name__)
+CORS(app)
 # Database Setup using SQLAlchmy ORM
 URI = f"postgresql://{username}:{password}@localhost:{port}/{db_name}"
-Engine = create_engine(URI)
-Base = automap_mapbase()
-Base.prepare(engine, reflect=True)
+engine = create_engine(URI)
+
 # Map table
 
 @app.route('/')
