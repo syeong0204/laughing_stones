@@ -1,5 +1,5 @@
 username = "postgres"
-password = "postgres"
+password = "Postgress1"
 port = 5432
 db_name = "StoryOfMusic"
 
