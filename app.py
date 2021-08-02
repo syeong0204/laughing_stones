@@ -16,7 +16,7 @@ engine = create_engine(URI)
 
 @app.route('/')
 def home():
-    return render_template("index.html")
+    return render_template("index_nks.html")
 @app.route("/everything")
 def everything():
 	df = pd.read_sql("""SELECT * FROM merged_music;""", engine)
